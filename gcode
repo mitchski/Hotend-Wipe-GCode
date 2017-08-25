@@ -8,7 +8,7 @@ G28 Z0     ;move Z to min endstops
 G29        ;Run the auto bed leveling
 G1 Z15.0 F{travel_speed} ;move the platform down 15mm
 G92 E0                  ;zero the extruded length
-G1 F200 E3              ;extrude 3mm of feed stock
+G1 F200 E15              ;extrude 15mm of feed stock
 G92 E0                  ;zero the extruded length again
 G1 F{travel_speed}
 M117 Printing...
